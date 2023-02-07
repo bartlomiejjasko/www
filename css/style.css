@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.onpage {
+    min-height: 800px;
+    border: 1px solid #000
+}
+
+.main-menu ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: red;
+}
+
+.to-top {
+    width: 50px;
+    height: 50px;
+    background: rgb(230, 16, 16);
+    position: fixed;
+    bottom: 5px;
+    border-radius: 25px;
+    float: right;
+    right: 5px;
+}
+
+.icon {
+font-size: 30px;
+color: #fff;
+text-align: center;
+line-height: 50px;
+display: block;
+}
+
+
+
